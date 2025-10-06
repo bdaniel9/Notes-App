@@ -1,0 +1,89 @@
+# === Android / Gradle ===
+.gradle/
+build/
+**/build/
+
+# Gradle wrapper jar
+gradle-wrapper.jar
+
+# Local config (sdk path, keystore path, ...)
+local.properties
+/local.properties
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/gradle.xml
+.idea/**/libraries/
+.idea/caches/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Editor folders
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Native / NDK
+.externalNativeBuild/
+.cxx/
+obj/
+
+# Captures, screenshots, generated assets
+/captures
+/screenshots
+*.log
+
+# Keystores and signing files (NE commit!)
+*.jks
+*.keystore
+**/*.jks
+**/*.keystore
+keystore.properties
+signing.properties
+
+# Android Studio 3.6+ build caches
+.build/
+
+# APKs, bundles
+*.apk
+*.ap_
+*.aab
+*.apks
+
+# IntelliJ misc
+out/
+
+# Firebase / Google services config (usually contains keys)
+google-services.json
+**/google-services.json
+serviceAccountKey.json
+*.pem
+*.p12
+*.pfx
+
+# Env files and secrets
+.env
+.env.*
+.env.local
+secrets.properties
+*.secret
+
+# Test / coverage
+coverage/
+*.exec
+test-results/
+
+# Misc
+*.class
+*.jar
+*.war
+*.ear
+*.log
