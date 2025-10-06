@@ -51,4 +51,11 @@ dependencies {
     //Room
     implementation("androidx.room:room-runtime:2.8.1")
     annotationProcessor("androidx.room:room-compiler:2.8.1")
+
+    //RecyclerView
+    implementation("androidx.recyclerview:recyclerview:1.4.0")
+
+    //Scalable Size Unit
+    implementation("com.intuit.sdp:sdp-android:1.2.0")
+    implementation("com.intuit.ssp:ssp-android:1.2.0")
 }
